@@ -13,7 +13,7 @@ void main(List<String> arguments) async{
 
 Future<http.Response> sendMoney(String senderId, String receiverId, double dAmount, String accountType, String accessToken) async {
   return  await http.post(
-    Uri.parse('http://35.196.238.66:3000/sendmoney'),
+    Uri.parse('ip:port'),
     headers: <String, String> {
       'Content-Type': 'application/json; charset=UTF-8',
     'Authorization': 'Bearer $accessToken'},
@@ -31,7 +31,7 @@ Future<http.Response> sendMoney(String senderId, String receiverId, double dAmou
 
 Future<User> getUserData(String accessToken, String netId) async {
   
-  var response = await http.get(Uri.parse('http://35.196.238.66:3000/refresh/$netId'),
+  var response = await http.get(Uri.parse('ip:port/refresh$netId'),
     headers: <String, String> {
     'Authorization': 'Bearer $accessToken'},
   );
