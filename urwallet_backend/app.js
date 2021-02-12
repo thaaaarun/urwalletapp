@@ -46,7 +46,7 @@ app.use('/', require('./routes/index'));
 
 startDatabase().then(() => {
   // start the server
-  app.listen(3000, () => {
-    console.log("Server running on port 3000");
+  app.listen(, () => {
+    console.log("Server running on port ");
   });
 });
