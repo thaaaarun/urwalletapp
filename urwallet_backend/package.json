@@ -24,12 +24,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/urwallet/urwallet_backend.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/urwallet/urwallet_backend/issues"
+    "url": ""
   },
-  "homepage": "https://gitlab.com/urwallet/urwallet_backend#readme"
+  "homepage": ""
 }
