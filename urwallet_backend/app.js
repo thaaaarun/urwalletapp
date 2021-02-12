@@ -19,10 +19,10 @@ const jwtCheck = jwt({
       cache: true,
       rateLimit: true,
       jwksRequestsPerMinute: 5,
-      jwksUri: 'https://urwallet.us.auth0.com/.well-known/jwks.json'
+      jwksUri: ''
 }),
-audience: 'https://urwallet',
-issuer: 'https://urwallet.us.auth0.com/',
+audience: '',
+issuer: '',
 algorithms: ['RS256']
 });
 
