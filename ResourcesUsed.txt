@@ -1,0 +1,10 @@
+Resources:
+https://node-postgres.com/guides/async-express
+https://developer.okta.com/blog/2019/05/31/simple-auth-express-fifteen-minutes
+https://www.freecodecamp.org/news/building-a-simple-node-js-api-in-under-30-minutes-a07ea9e390d2/
+https://medium.com/@onejohi/building-a-simple-rest-api-with-nodejs-and-express-da6273ed7ca9
+https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/
+https://auth0.com/blog/node-js-and-express-tutorial-building-and-securing-restful-apis/
+https://auth0.com/blog/get-started-with-flutter-authentication/#Set-Up-Auth0
+npm package --> forever (on GCP)
+https://auth0.com/
